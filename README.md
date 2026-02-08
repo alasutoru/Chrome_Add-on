@@ -1,38 +1,37 @@
 # 🛠️ Chrome 實用工具擴充集 (Chrome Add-ons)
 
-這是一個包含三個獨立 Chrome 擴充程式的工具集，旨在提升書籤管理效率與保護瀏覽隱私。
+![Chrome Web Store](https://img.shields.io/badge/Platform-Chrome-4285F4?style=flat-square&logo=google-chrome&logoColor=white)
+![Manifest](https://img.shields.io/badge/Manifest-V3-brightgreen?style=flat-square)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 📦 擴充程式清單
+這是一個致力於效率與隱私的 Chrome 擴充程式精選集。
 
-### 1. 🗂️ J人書籤管理 (J-Style Bookmark Manager)
-專為追求秩序的「J人」設計的書籤管理工具。
-- **核心功能**：提供直觀的介面來管理您的瀏覽器書籤。
-- **快捷鍵**：支援 `Ctrl+Shift+B` 快速啟動。
-- **權限說明**：需要書籤 (`bookmarks`) 與存儲 (`storage`) 權限以同步您的設定。
+---
+
+## 📦 擴充程式詳解
+
+### 1. 🗂️ J人書籤管理 (J-Style Manager)
+> 「秩序即是力量。」
+- **定位**：高效率書籤分類與快速存取。
+- **技術**：Bookmarks API + Storage API 整合。
+- **快捷鍵**：`Ctrl+Shift+B`。
 
 ### 2. 🧹 一鍵清除 (One-Click Cleaner)
-極簡主義者的隱私保護利器。
-- **核心功能**：點擊一下即可瞬間清除瀏覽器快取、檔案、下載紀錄與瀏覽紀錄。
-- **適用場景**：快速釋放磁碟空間，或在離開電腦前確保隱私不外洩。
-- **權限說明**：使用 `browsingData` 權限執行深度清理。
+> 「不留任何數位足跡。」
+- **功能**：深度清理瀏覽器快取、Cookie、下載紀錄。
+- **特色**：極簡按鈕設計，無須複雜設定。
 
-### 3. 🔍 書籤檢查器 (Bookmark Link Checker)
-自動化的書籤健康診斷工具。
-- **核心功能**：掃描您的 Chrome 書籤，自動檢測哪些連結已失效（404 錯誤或死連結）。
-- **進階特性**：支援後台自動掃描與通知提醒。
-- **權限說明**：需要訪問所有網址以確認連結有效性。
+### 3. 🔍 書籤檢查器 (Link Checker)
+> 「確保您的數位圖書館始終可用。」
+- **功能**：全自動掃描並標註 404/500 等無效連結。
+- **警報**：支援 Chrome Notifications 提醒。
 
 ---
 
-## 🚀 如何安裝 (Developer Mode)
-
-1. 下載此專案到您的電腦。
-2. 打開 Chrome 瀏覽器，進入 `chrome://extensions/`。
-3. 開啟右上角的 **「開發者模式」**。
-4. 點擊 **「載入解壓縮擴充程式」**。
-5. 選擇本專案中對應的資料夾（例如：`一鍵清除`）即可完成安裝。
+## 🚀 開發者安裝指南
+1. 下載本專案並解壓縮。
+2. 前往 `chrome://extensions/` 並開啟 **開發者模式**。
+3. 點擊 **載入解壓縮擴充程式** 並選擇目標資料夾。
 
 ---
-
-## ⚖️ 授權 (License)
-本專案採 MIT 授權，歡迎自行修改與分發。
+*實踐第一性原理，用最少的代碼解決最直接的問題。*
